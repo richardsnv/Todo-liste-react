@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import './index.css';
 import TodoItem from './TodoItem';
 import { Construction } from 'lucide-react';
+
 // Define the types for the Todo application
 type Priority = 'Urgente' | 'Moyenne' | 'Basse';
 
